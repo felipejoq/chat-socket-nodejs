@@ -21,13 +21,4 @@ npm install
 ### Para conectarse al chat:
 > Ingresar el nombre y la sala en la página de inicio.
 
-### Para enviar mensaje privado:
-```
-socket.emit('mensajePrivado', {mensaje: 'Hola Laura', para: 'ID_SOCKET'});
-```
-### Para enviar mensaje a la sala
-```
-socket.emit('crearMensaje', {mensaje: 'Hola Laura', sala: 'Juegos'});
-```
-
 Enjoy! c:
